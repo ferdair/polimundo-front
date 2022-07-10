@@ -2,8 +2,15 @@
   <v-app>
     <v-main>
       <div>
-        <v-btn text :to="{ name: 'Home' }" exact>Home</v-btn>
-        <v-btn text :to="{ name: 'About' }" exact>About</v-btn>
+        <v-app-bar color="blue lighten-5">
+          <v-toolbar-title
+            ><div class="blue--text text--darken-1 font-weight-bold">
+              Polimundo.com
+            </div></v-toolbar-title
+          >
+
+          <v-spacer></v-spacer>
+        </v-app-bar>
       </div>
 
       <router-view />
@@ -14,12 +21,7 @@
 </template>
 
 <script>
-import MainFooter from '@/components/MainFooter.vue';
-
 export default {
-  name: 'Base',
-  components: {
-    MainFooter,
-  },
+  name: "Base",
 };
 </script>
