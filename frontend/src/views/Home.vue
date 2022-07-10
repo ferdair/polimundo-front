@@ -1,21 +1,35 @@
 <template>
-  <div>
-    <img
-      alt="Vue logo"
-      src="../assets/logo.png"
-    />
-    <HelloWorld msg="Hello Vue 2 + Vite" />
-  </div>
+  <v-container>
+    <v-row no-gutters>
+      <v-col>
+        <div
+          class="
+            text-md-h2 text-sm-h3
+            red--text
+            text--darken-1
+            font-weight-bold
+          "
+        >
+          Encuentra vuelos baratos para tu próximo viaje
+        </div>
+      </v-col>
+    </v-row>
+    <v-row no-gutters>
+      <v-col>
+        <div class="text-md-h4 text-sm-h5 font-weight-bold">
+          Busca y compra fácilmente tu próximo pasaje en bus con Polimundo.com
+        </div>
+      </v-col>
+    </v-row>
+
+    <Buscador></Buscador>
+  </v-container>
 </template>
 
 <script>
-import HelloWorld from '../components/HelloWorld.vue';
-
+import Buscador from "@/components/Buscador.vue";
 export default {
-  name: 'Home',
-
-  components: {
-    HelloWorld,
-  },
+  name: "Home",
+  components: { Buscador },
 };
 </script>
