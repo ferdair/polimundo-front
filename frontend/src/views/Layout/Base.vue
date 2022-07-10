@@ -3,10 +3,12 @@
     <v-main>
       <div>
         <v-app-bar color="blue lighten-5">
-          <v-toolbar-title
-            ><div class="blue--text text--darken-1 font-weight-bold">
-              Polimundo.com
-            </div></v-toolbar-title
+          <v-toolbar-title>
+            <v-btn text to="/">
+              <div class="blue--text text--darken-1 font-weight-bold">
+                Polimundo.com
+              </div>
+            </v-btn></v-toolbar-title
           >
 
           <v-spacer></v-spacer>

@@ -17,7 +17,7 @@
     <v-row no-gutters>
       <v-col>
         <div class="text-md-h4 text-sm-h5 font-weight-bold">
-          Busca y compra fácilmente tu próximo pasaje en bus con Polimundo.com
+          Busca y compra fácilmente tu próximo pasaje en avion con Polimundo.com
         </div>
       </v-col>
     </v-row>
