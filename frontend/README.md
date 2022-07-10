@@ -2,6 +2,17 @@
 
 `Vite + Vue 2 + Vuex + Vue Router + Vuetify`
 
+# Run docker
+```console
+docker-compose up -d
+```
+
+# Run console in container
+```console
+docker-compose exec my_frontend /bin/bash
+```
+
+
 ## Start
 
 ```bash
@@ -13,6 +24,8 @@ yarn dev # start dev server
 yarn build # build for production
 yarn serve # locally preview production build
 ```
+
+
 
 # Challenge Front-end
 - Vas a utilizar Vue.js v2.
